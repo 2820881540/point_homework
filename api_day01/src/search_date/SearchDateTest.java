@@ -54,7 +54,7 @@ public class SearchDateTest {
             System.out.print("\t");
 
         //输出当前月份的有效天数
-        for (int i = 1; i < totalDayInMonth; i++) {
+        for (int i = 0; i < totalDayInMonth; i++) {
             System.out.print(calendar.get(Calendar.DAY_OF_MONTH));
             //标记原先指定的日期
             if (calendar.get(Calendar.DAY_OF_MONTH)==targetDay)
